@@ -1,9 +1,14 @@
 """ Wrapper over Python's requests library. """
 from socket import error as SocketError
-import requests, cgi, errno, os, urlparse
-from BeautifulSoup import BeautifulSoup
+# import requests, cgi, errno, os, urlparse
+import requests, cgi, errno, os
+import urllib.parse as urlparse
+# from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 from PIL import Image
-from StringIO import StringIO
+# from StringIO import StringIO
+from io import StringIO
+
 
 from requests_toolbelt import MultipartEncoder
 

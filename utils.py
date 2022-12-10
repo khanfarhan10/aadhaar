@@ -1,6 +1,9 @@
-import urlparse
+# import urlparse
+# import urllib.parse as urlparse
 import os
-from urlparse import urlparse, parse_qs
+# from urlparse import urlparse, parse_qs
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
     
 from json import dumps
 

@@ -1,5 +1,6 @@
 import re
-import urlparse
+# import urlparse
+import urllib.parse as urlparse
 import datetime
 
 import webrequests
